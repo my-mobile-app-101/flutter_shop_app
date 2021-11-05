@@ -23,7 +23,7 @@ app.use("/getGoodDetail",require("./router/good_detail"));
 app.use("/getHomeCategory",require("./router/homecategory"));
 app.use("/getHomeDetail",require("./router/home_dateil"));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.listen(port,()=>{
     console.log(`server running @http://localhost:${port}`);
 });
