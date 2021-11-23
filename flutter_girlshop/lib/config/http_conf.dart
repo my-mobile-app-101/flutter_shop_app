@@ -1,4 +1,4 @@
-const base_url = 'http://10.10.20.16:8081/';
+const base_url = 'http://10.10.20.16:8080/';
 const servicePath = {
   'homePageContext':base_url + 'getHomePageContent',//首页数据
   'getHotGoods':base_url + 'getHotGoods',//火爆专区
