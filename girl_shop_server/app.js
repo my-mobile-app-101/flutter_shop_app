@@ -12,7 +12,7 @@ app.use(function(req,res,next){
     next();
 });
 
-//获取数据 路由到不同的数据接口
+//获取数据 路由到不同的数据接口__
 
 app.use("/getTestData",require("./router/test"));
 app.use("/getHomePageContent",require("./router/home_page_content"));
