@@ -7,7 +7,7 @@ import 'router_handler.dart';
 class Routers{
   static String root = '/';
   static String detailsPage = '/detail';
-
+   //
   static void configureRouters(Router router){
 
     router.notFoundHandler = new Handler(
